@@ -1,12 +1,81 @@
-## Hi there 👋
+## BeBig : 금융 공공데이터 포탈 기반의 고객 금융자산 분석 비교 서비스
+link : http://bbbbick.duckdns.org:5173/user
 
-<!--
+![스크린샷 2024-10-15 오후 3 19 58](https://github.com/user-attachments/assets/7d6467b1-e49a-4c55-8c2c-b2941bff450c)
 
-**Here are some ideas to get you started:**
+### 💸프로젝트 소개
+최근 빠르게 변화하는 금융 환경 속에서 개인의 자산 관리와 소비 습관은 경제적 성공을 좌우하는 핵심 요소로 떠오르고 있습니다. 그러나 많은 사람들이 자신의 자산을 효과적으로 분석하거나 목표에 맞는 금융 상품을 찾는데 어려움을 겪고 있으며 특히 소비 습관 개선에 대한 실질적인 도움을 받기 힘든 상황입니다. 이에 따라 금융 공공데이터를 활용해 개인화된 자산 분석과 맞춤형 소비 개선 방안을 제시하는 서비스가 필요합니다. 이러한 서비스를 통해 사용자는 자신의 재무 상태를 명확히 이해하고 목표를 달성할 수 있는 효과적인 방법을 찾을 수 있습니다.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### 프로젝트 목적
+⭐️ 사용자의 자산 분석을 통해 개인화 미션과 상품 추천을 제공하여 경제적인 소비 습관을 개선하는 것
+
+1. **자산 분석을 통한 소비 습관 개선**
+    
+    사용자의 자산 상태를 체계적으로 분석하고 이를 바탕으로 최적의 금융 상품 추천 및 소비 습관 개선 방안을 제시합니다.
+    
+2. **소비 습관 개선을 위한 미션 제공**
+    
+    사용자의 소비 패턴을 분석하여 일일 및 월별 맞춤형 미션을 제공합니다. 이 미션을  통해 사용자는 점진적으로 소비 습관을 개선하며 자산을 효과적으로 관리할 수 있게 됩니다.
+    
+3. **개인 맞춤형 금융 상품 추천**
+    
+    사용자의 금융 유형에 맞춰 금융 공공데이터를 활용하여 최적의 예·적금 상품을 추천합니다. 특지 이자율과 사용자의 주 거래 은행 데이터를 기반으로 개개인에게 맞춤화된 상품을 제공하여 더 나은 금융 의사 결정을 지원합니다.
+    
+4. **정보 공유를 통한  커뮤니티 활성화**
+    
+    사용자 간 자산 관리 및 금융 상품에 대한 정보 공유를 촉진하는 커뮤니티를 제공하여 경제적인 지식을 쌓을 수 있는 상호 학습과 협력을 장려합니다. 다른 사용자의 자산 관리 노하우를 배우고 함께 성장할 수 있는 기회를 제공합니다.
+
+   ---
+## 개발 환경
+### Front-end
+
+- Vue.js : 3.5.3
+- pinia : 2.2.2
+- vite : 5.3.1
+
+### Back-end
+
+- SDK : 17 Oracle Open JDK 17p
+- Language level : SDK default
+
+Gradle
+  - Distribution : Wrapper
+  - Gradle JVM : JAVA_HOME Oracle OpenJDK 17
+  - Tomcat : 9.0.91
+  - Spring 3
+  - Spring Security
+      - jwt
+  - Spring Batch 4.3.10
+      - Quartz 2.3.0
+  - SqlSessionFactory
+
+
+### 데이터베이스
+- mySQL : 8.0.39
+
+### 배포
+- AWS : ec2
+## 시스템 아키텍처
+
+[이미지 첨부]
+
+## ERD
+
+[이미지 첨부]
+
+---
+# 프로젝트 관리
+
+## Jira
+![image](https://github.com/user-attachments/assets/913e3887-e945-486f-bfd2-e999afc1f84f)
+- Jira를 사용해 WBS를 만들어 일정, 진행상황, 담당자 파악을 정확히 함
+  ![image](https://github.com/user-attachments/assets/7462f602-a0fa-4d3f-9038-bf1c7d4d22bc)
+
+- 자동화를 이용해 이슈를 빠르게 파악하고, 현재 진행 상황과 담당자와의 소통 향상
+
+
+---
+# API 구조
+
+---
+# 주요 기능

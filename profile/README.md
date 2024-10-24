@@ -171,7 +171,7 @@ link : http://bbbbick.duckdns.org:5173/user
 
 
 ### (7) Spring Batch와 Quartz를 통한 스케쥴링 및 데이터 처리(BE)
-![image](https://github.com/user-attachments/assets/79f3696c-ee27-4bfc-a291-cff918fc6c3d)
+![batch](https://github.com/user-attachments/assets/42632d07-c7a2-4619-87f2-f9927faddb5e)
 
 ### (8) GitHub Action을 이용한 CI/CD(BE)
 ![image](https://github.com/user-attachments/assets/ac82ad49-18d8-4823-a3b8-e214eeb184f1)
